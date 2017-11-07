@@ -1,5 +1,7 @@
 # vue-template
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/yinshuxun/vue-template.svg)](https://greenkeeper.io/)
+
 > A simple Vue.js project from vue-cli@2.9.1
 
 now contains vue,vue-router,vuex,axios,mock,eslint...
