@@ -1,2 +1,5 @@
 import './http'
-import './mock'
+
+__MOCK__ && (
+  require('./mock')
+)

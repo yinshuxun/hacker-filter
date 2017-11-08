@@ -12,16 +12,16 @@ const state = {
 }
 
 const getters = {
-  count(state) {
+  count (state) {
     return state.count
   },
-  steps(state) {
+  steps (state) {
     return state.steps
   },
-  loading(state) {
+  loading (state) {
     return state.loading
   },
-  userName(state) {
+  userName (state) {
     return state.userName
   }
 }
@@ -29,32 +29,32 @@ const getters = {
 export default new Vuex.Store({
   state,
   mutations: {
-    increment(state, num) {
+    increment (state, num) {
       state.count += num
       state.steps.unshift('加上' + num)
     },
-    reduce(state, num) {
+    reduce (state, num) {
       state.count -= num
       state.steps.unshift('减去' + num)
     },
-    loading(state, lstate) {
+    loading (state, lstate) {
       state.loading = lstate
     },
-    baseData(state, newState) {
+    baseData (state, newState) {
       Object.assign(state, newState)
     }
   },
   actions: {
-    setBase({commit}, newState) {
+    setBase ({commit}, newState) {
       commit('baseData', newState)
     },
-    increment({commit}, num) {
+    increment ({commit}, num) {
       commit('increment', num)
     },
-    reduce({commit}, num) {
+    reduce ({commit}, num) {
       commit('reduce', num)
     },
-    loading({commit}, lstate) {
+    loading ({commit}, lstate) {
       commit('loading', lstate)
     }
   },

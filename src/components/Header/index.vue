@@ -6,6 +6,6 @@
 <style src="./index.scss" lang="scss" module></style>
 <script>
   export default {
-    props:['userName']
+    props: ['userName']
   }
 </script>
