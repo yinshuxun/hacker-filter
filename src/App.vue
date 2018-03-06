@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+    <div v-if="loading==='ing'">
+      <MLoading/>
+    </div>
     <MHeader :userName="userName"/>
     <router-view/>
   </div>
@@ -7,6 +10,7 @@
 <script>
   import {mapGetters, mapActions} from 'vuex'
   import MHeader from 'components/Header'
+  import MLoading from 'components/Loading'
 
   export default {
     name: 'app',
@@ -23,10 +27,11 @@
       ...mapActions(['setBase'])
     },
     computed: {
-      ...mapGetters(['userName'])
+      ...mapGetters(['userName', 'loading'])
     },
     components: {
-      MHeader
+      MHeader,
+      MLoading
     }
   }
 </script>

@@ -4,7 +4,7 @@
     <button @click='reduce(a)'>-</button>
     <input type="number" @input="inputData"/>
     <button @click='increment(a)'>+</button>
-    <div>{{`结果是: ${count}`}}</div>
+    <div :class="$style.title">{{`结果是: ${count}`}}</div>
   </div>
 </template>
 <style src="./index.scss" lang="scss" module/>

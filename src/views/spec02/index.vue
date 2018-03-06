@@ -9,12 +9,12 @@
 </template>
 <script>
   export default {
-    data() {
+    data () {
       return {
         items: []
       }
     },
-    created() {
+    created () {
       this.$http.get('/get-data-0').then(({data: {list}}) => {
         this.items = list
       })

@@ -15,6 +15,11 @@ module.exports = {
   plugins: [
     'html'
   ],
+  globals: {
+    __MOCK__: false,
+    __DEV__: false,
+    __PROD__: false
+  },
   // add your custom rules here
   'rules': {
     // allow paren-less arrow functions

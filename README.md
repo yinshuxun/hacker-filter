@@ -4,7 +4,7 @@
 
 > A simple Vue.js project from vue-cli@2.9.1
 
-now contains vue,vue-router,vuex,axios,mock,eslint...
+now contains vue,vue-router,vuex,axios,mock,eslint,stylelint...
 
 ## Build Setup
 
