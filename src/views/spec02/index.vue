@@ -1,8 +1,8 @@
 <template>
   <div>
     this is spec01
-    <div>生成随机数:</div>
-    <div v-for="item in items">
+    <div>生成随机数1:</div>
+    <div v-for="(item, index) in items" :key="index">
       {{item.id}}
     </div>
   </div>

@@ -10,7 +10,7 @@ function resolve(dir) {
 
 module.exports = {
   entry: {
-    app: './src/main.js'
+    app: './src/main.ts'
   },
   output: {
     path: config.build.assetsRoot,
@@ -23,7 +23,7 @@ module.exports = {
     moduleExtensions: ['-loader']
   },
   resolve: {
-    extensions: ['.js', '.vue', '.json'],
+    extensions: ['.ts', '.vue', '.js'],
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
@@ -35,19 +35,20 @@ module.exports = {
   },
   module: {
     rules: [
-      // {
-      //   test: /\.(js|vue)$/,
-      //   loader: 'eslint-loader',
-      //   enforce: 'pre',
-      //   include: [resolve('src'), resolve('test')],
-      //   options: {
-      //     formatter: require('eslint-friendly-formatter')
-      //   }
-      // },
       {
         test: /\.vue$/,
         loader: 'vue',
         options: vueLoaderConfig
+      },
+      {
+        test: /\.ts$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'ts-loader',
+          options: {
+            appendTsSuffixTo: [/\.vue$/]
+          }
+        }
       },
       {
         test: /\.js$/,

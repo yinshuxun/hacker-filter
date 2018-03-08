@@ -7,9 +7,8 @@
     <div :class="$style.title">{{`结果是: ${count}`}}</div>
   </div>
 </template>
-<style src="./index.scss" lang="scss" module/>
 <script>
-  import {mapActions,mapGetters} from 'vuex'
+  import {mapActions, mapGetters} from 'vuex'
 
   export default{
     data() {
@@ -28,3 +27,5 @@
     }
   }
 </script>
+<style src="./index.scss" lang="scss" module/>
+

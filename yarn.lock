@@ -2,6 +2,108 @@
 # yarn lockfile v1
 
 
+"@babel/code-frame@7.0.0-beta.40", "@babel/code-frame@^7.0.0-beta.40":
+  version "7.0.0-beta.40"
+  resolved "http://registry.npm.taobao.org/@babel/code-frame/download/@babel/code-frame-7.0.0-beta.40.tgz#37e2b0cf7c56026b4b21d3927cadf81adec32ac6"
+  dependencies:
+    "@babel/highlight" "7.0.0-beta.40"
+
+"@babel/generator@7.0.0-beta.40":
+  version "7.0.0-beta.40"
+  resolved "http://registry.npm.taobao.org/@babel/generator/download/@babel/generator-7.0.0-beta.40.tgz#ab61f9556f4f71dbd1138949c795bb9a21e302ea"
+  dependencies:
+    "@babel/types" "7.0.0-beta.40"
+    jsesc "^2.5.1"
+    lodash "^4.2.0"
+    source-map "^0.5.0"
+    trim-right "^1.0.1"
+
+"@babel/helper-function-name@7.0.0-beta.40":
+  version "7.0.0-beta.40"
+  resolved "http://registry.npm.taobao.org/@babel/helper-function-name/download/@babel/helper-function-name-7.0.0-beta.40.tgz#9d033341ab16517f40d43a73f2d81fc431ccd7b6"
+  dependencies:
+    "@babel/helper-get-function-arity" "7.0.0-beta.40"
+    "@babel/template" "7.0.0-beta.40"
+    "@babel/types" "7.0.0-beta.40"
+
+"@babel/helper-get-function-arity@7.0.0-beta.40":
+  version "7.0.0-beta.40"
+  resolved "http://registry.npm.taobao.org/@babel/helper-get-function-arity/download/@babel/helper-get-function-arity-7.0.0-beta.40.tgz#ac0419cf067b0ec16453e1274f03878195791c6e"
+  dependencies:
+    "@babel/types" "7.0.0-beta.40"
+
+"@babel/highlight@7.0.0-beta.40":
+  version "7.0.0-beta.40"
+  resolved "http://registry.npm.taobao.org/@babel/highlight/download/@babel/highlight-7.0.0-beta.40.tgz#b43d67d76bf46e1d10d227f68cddcd263786b255"
+  dependencies:
+    chalk "^2.0.0"
+    esutils "^2.0.2"
+    js-tokens "^3.0.0"
+
+"@babel/template@7.0.0-beta.40":
+  version "7.0.0-beta.40"
+  resolved "http://registry.npm.taobao.org/@babel/template/download/@babel/template-7.0.0-beta.40.tgz#034988c6424eb5c3268fe6a608626de1f4410fc8"
+  dependencies:
+    "@babel/code-frame" "7.0.0-beta.40"
+    "@babel/types" "7.0.0-beta.40"
+    babylon "7.0.0-beta.40"
+    lodash "^4.2.0"
+
+"@babel/traverse@^7.0.0-beta.40":
+  version "7.0.0-beta.40"
+  resolved "http://registry.npm.taobao.org/@babel/traverse/download/@babel/traverse-7.0.0-beta.40.tgz#d140e449b2e093ef9fe1a2eecc28421ffb4e521e"
+  dependencies:
+    "@babel/code-frame" "7.0.0-beta.40"
+    "@babel/generator" "7.0.0-beta.40"
+    "@babel/helper-function-name" "7.0.0-beta.40"
+    "@babel/types" "7.0.0-beta.40"
+    babylon "7.0.0-beta.40"
+    debug "^3.0.1"
+    globals "^11.1.0"
+    invariant "^2.2.0"
+    lodash "^4.2.0"
+
+"@babel/types@7.0.0-beta.40", "@babel/types@^7.0.0-beta.40":
+  version "7.0.0-beta.40"
+  resolved "http://registry.npm.taobao.org/@babel/types/download/@babel/types-7.0.0-beta.40.tgz#25c3d7aae14126abe05fcb098c65a66b6d6b8c14"
+  dependencies:
+    esutils "^2.0.2"
+    lodash "^4.2.0"
+    to-fast-properties "^2.0.0"
+
+"@types/axios@^0.14.0":
+  version "0.14.0"
+  resolved "http://registry.npm.taobao.org/@types/axios/download/@types/axios-0.14.0.tgz#ec2300fbe7d7dddd7eb9d3abf87999964cafce46"
+  dependencies:
+    axios "*"
+
+"@types/mockjs@^1.0.0":
+  version "1.0.0"
+  resolved "http://registry.npm.taobao.org/@types/mockjs/download/@types/mockjs-1.0.0.tgz#a696e1f64c92e7bd6af6343bf8350d1b9d12b388"
+
+"@types/node@*":
+  version "9.4.6"
+  resolved "http://registry.npm.taobao.org/@types/node/download/@types/node-9.4.6.tgz#d8176d864ee48753d053783e4e463aec86b8d82e"
+
+"@types/tapable@*":
+  version "0.2.4"
+  resolved "http://registry.npm.taobao.org/@types/tapable/download/@types/tapable-0.2.4.tgz#8181a228da46185439300e600c5ae3b3b3982585"
+
+"@types/uglify-js@*":
+  version "2.6.30"
+  resolved "http://registry.npm.taobao.org/@types/uglify-js/download/@types/uglify-js-2.6.30.tgz#257d2b6dd86673d60da476680fba90f2e30c6eef"
+  dependencies:
+    source-map "^0.6.1"
+
+"@types/webpack@^4.0.0":
+  version "4.0.0"
+  resolved "http://registry.npm.taobao.org/@types/webpack/download/@types/webpack-4.0.0.tgz#c989df16d3fb6024491e35a51d38c513dca8d7f5"
+  dependencies:
+    "@types/node" "*"
+    "@types/tapable" "*"
+    "@types/uglify-js" "*"
+    source-map "^0.6.0"
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -109,6 +211,12 @@ ansi-styles@^3.1.0:
   dependencies:
     color-convert "^1.9.0"
 
+ansi-styles@^3.2.1:
+  version "3.2.1"
+  resolved "http://registry.npm.taobao.org/ansi-styles/download/ansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"
+  dependencies:
+    color-convert "^1.9.0"
+
 anymatch@^1.3.0:
   version "1.3.2"
   resolved "https://registry.npmjs.org/anymatch/-/anymatch-1.3.2.tgz#553dcb8f91e3c889845dfdba34c77721b90b9d7a"
@@ -139,9 +247,17 @@ arr-diff@^2.0.0:
   dependencies:
     arr-flatten "^1.0.1"
 
-arr-flatten@^1.0.1:
+arr-diff@^4.0.0:
+  version "4.0.0"
+  resolved "http://registry.npm.taobao.org/arr-diff/download/arr-diff-4.0.0.tgz#d6461074febfec71e7e15235761a329a5dc7c520"
+
+arr-flatten@^1.0.1, arr-flatten@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/arr-flatten/-/arr-flatten-1.1.0.tgz#36048bbff4e7b47e136644316c99669ea5ae91f1"
+
+arr-union@^3.1.0:
+  version "3.1.0"
+  resolved "http://registry.npm.taobao.org/arr-union/download/arr-union-3.1.0.tgz#e39b09aea9def866a8f206e288af63919bae39c4"
 
 array-find-index@^1.0.1:
   version "1.0.2"
@@ -164,6 +280,10 @@ array-uniq@^1.0.1:
 array-unique@^0.2.1:
   version "0.2.1"
   resolved "https://registry.npmjs.org/array-unique/-/array-unique-0.2.1.tgz#a1d97ccafcbc2625cc70fadceb36a50c58b01a53"
+
+array-unique@^0.3.2:
+  version "0.3.2"
+  resolved "http://registry.npm.taobao.org/array-unique/download/array-unique-0.3.2.tgz#a894b75d4bc4f6cd679ef3244a9fd8f46ae2d428"
 
 arrify@^1.0.0:
   version "1.0.1"
@@ -195,6 +315,10 @@ assert@^1.1.1:
   dependencies:
     util "0.10.3"
 
+assign-symbols@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.npm.taobao.org/assign-symbols/download/assign-symbols-1.0.0.tgz#59667f41fadd4f20ccbc2bb96b8d4f7f78ec0367"
+
 async-each@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npmjs.org/async-each/-/async-each-1.0.1.tgz#19d386a1d9edc6e7c1c85d388aedbcc56d33602d"
@@ -222,6 +346,10 @@ async@^2.1.5:
 asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
+
+atob@^2.0.0:
+  version "2.0.3"
+  resolved "http://registry.npm.taobao.org/atob/download/atob-2.0.3.tgz#19c7a760473774468f20b2d2d03372ad7d4cbf5d"
 
 autoprefixer@^6.3.1:
   version "6.7.7"
@@ -257,6 +385,13 @@ aws4@^1.2.1, aws4@^1.6.0:
   version "1.6.0"
   resolved "https://registry.npmjs.org/aws4/-/aws4-1.6.0.tgz#83ef5ca860b2b32e4a0deedee8c771b9db57471e"
 
+axios@*:
+  version "0.18.0"
+  resolved "http://registry.npm.taobao.org/axios/download/axios-0.18.0.tgz#32d53e4851efdc0a11993b6cd000789d70c05102"
+  dependencies:
+    follow-redirects "^1.3.0"
+    is-buffer "^1.1.5"
+
 axios@^0.17.0:
   version "0.17.0"
   resolved "https://registry.npmjs.org/axios/-/axios-0.17.0.tgz#7da747916db803f761651d6091d708789b953c6a"
@@ -264,7 +399,7 @@ axios@^0.17.0:
     follow-redirects "^1.2.3"
     is-buffer "^1.1.5"
 
-babel-code-frame@^6.11.0, babel-code-frame@^6.16.0, babel-code-frame@^6.22.0, babel-code-frame@^6.26.0:
+babel-code-frame@^6.11.0, babel-code-frame@^6.16.0, babel-code-frame@^6.26.0:
   version "6.26.0"
   resolved "https://registry.npmjs.org/babel-code-frame/-/babel-code-frame-6.26.0.tgz#63fd43f7dc1e3bb7ce35947db8fe369a3f58c74b"
   dependencies:
@@ -296,14 +431,16 @@ babel-core@^6.22.1, babel-core@^6.26.0:
     slash "^1.0.0"
     source-map "^0.5.6"
 
-babel-eslint@^7.1.1:
-  version "7.2.3"
-  resolved "https://registry.npmjs.org/babel-eslint/-/babel-eslint-7.2.3.tgz#b2fe2d80126470f5c19442dc757253a897710827"
+babel-eslint@^8.0.2:
+  version "8.2.2"
+  resolved "http://registry.npm.taobao.org/babel-eslint/download/babel-eslint-8.2.2.tgz#1102273354c6f0b29b4ea28a65f97d122296b68b"
   dependencies:
-    babel-code-frame "^6.22.0"
-    babel-traverse "^6.23.1"
-    babel-types "^6.23.0"
-    babylon "^6.17.0"
+    "@babel/code-frame" "^7.0.0-beta.40"
+    "@babel/traverse" "^7.0.0-beta.40"
+    "@babel/types" "^7.0.0-beta.40"
+    babylon "^7.0.0-beta.40"
+    eslint-scope "~3.7.1"
+    eslint-visitor-keys "^1.0.0"
 
 babel-generator@^6.26.0:
   version "6.26.0"
@@ -816,7 +953,7 @@ babel-template@^6.24.1, babel-template@^6.26.0:
     babylon "^6.18.0"
     lodash "^4.17.4"
 
-babel-traverse@^6.23.1, babel-traverse@^6.24.1, babel-traverse@^6.26.0:
+babel-traverse@^6.24.1, babel-traverse@^6.26.0:
   version "6.26.0"
   resolved "https://registry.npmjs.org/babel-traverse/-/babel-traverse-6.26.0.tgz#46a9cbd7edcc62c8e5c064e2d2d8d0f4035766ee"
   dependencies:
@@ -830,7 +967,7 @@ babel-traverse@^6.23.1, babel-traverse@^6.24.1, babel-traverse@^6.26.0:
     invariant "^2.2.2"
     lodash "^4.17.4"
 
-babel-types@^6.19.0, babel-types@^6.23.0, babel-types@^6.24.1, babel-types@^6.26.0:
+babel-types@^6.19.0, babel-types@^6.24.1, babel-types@^6.26.0:
   version "6.26.0"
   resolved "https://registry.npmjs.org/babel-types/-/babel-types-6.26.0.tgz#a3b073f94ab49eb6fa55cd65227a334380632497"
   dependencies:
@@ -839,7 +976,11 @@ babel-types@^6.19.0, babel-types@^6.23.0, babel-types@^6.24.1, babel-types@^6.26
     lodash "^4.17.4"
     to-fast-properties "^1.0.3"
 
-babylon@^6.17.0, babylon@^6.18.0:
+babylon@7.0.0-beta.40, babylon@^7.0.0-beta.40:
+  version "7.0.0-beta.40"
+  resolved "http://registry.npm.taobao.org/babylon/download/babylon-7.0.0-beta.40.tgz#91fc8cd56d5eb98b28e6fde41045f2957779940a"
+
+babylon@^6.18.0:
   version "6.18.0"
   resolved "https://registry.npmjs.org/babylon/-/babylon-6.18.0.tgz#af2f3b88fa6f5c1e4c634d1a0f8eac4f55b395e3"
 
@@ -854,6 +995,18 @@ balanced-match@^1.0.0:
 base64-js@^1.0.2:
   version "1.2.1"
   resolved "https://registry.npmjs.org/base64-js/-/base64-js-1.2.1.tgz#a91947da1f4a516ea38e5b4ec0ec3773675e0886"
+
+base@^0.11.1:
+  version "0.11.2"
+  resolved "http://registry.npm.taobao.org/base/download/base-0.11.2.tgz#7bde5ced145b6d551a90db87f83c558b4eb48a8f"
+  dependencies:
+    cache-base "^1.0.1"
+    class-utils "^0.3.5"
+    component-emitter "^1.2.1"
+    define-property "^1.0.0"
+    isobject "^3.0.1"
+    mixin-deep "^1.2.0"
+    pascalcase "^0.1.1"
 
 bcrypt-pbkdf@^1.0.0:
   version "1.0.1"
@@ -946,6 +1099,23 @@ braces@^1.8.2:
     expand-range "^1.8.1"
     preserve "^0.2.0"
     repeat-element "^1.1.2"
+
+braces@^2.3.1:
+  version "2.3.1"
+  resolved "http://registry.npm.taobao.org/braces/download/braces-2.3.1.tgz#7086c913b4e5a08dbe37ac0ee6a2500c4ba691bb"
+  dependencies:
+    arr-flatten "^1.1.0"
+    array-unique "^0.3.2"
+    define-property "^1.0.0"
+    extend-shallow "^2.0.1"
+    fill-range "^4.0.0"
+    isobject "^3.0.1"
+    kind-of "^6.0.2"
+    repeat-element "^1.1.2"
+    snapdragon "^0.8.1"
+    snapdragon-node "^2.0.1"
+    split-string "^3.0.2"
+    to-regex "^3.0.1"
 
 brorand@^1.0.1:
   version "1.1.0"
@@ -1041,6 +1211,20 @@ bytes@3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/bytes/-/bytes-3.0.0.tgz#d32815404d689699f85a4ea4fa8755dd13a96048"
 
+cache-base@^1.0.1:
+  version "1.0.1"
+  resolved "http://registry.npm.taobao.org/cache-base/download/cache-base-1.0.1.tgz#0a7f46416831c8b662ee36fe4e7c59d76f666ab2"
+  dependencies:
+    collection-visit "^1.0.0"
+    component-emitter "^1.2.1"
+    get-value "^2.0.6"
+    has-value "^1.0.0"
+    isobject "^3.0.1"
+    set-value "^2.0.0"
+    to-object-path "^0.3.0"
+    union-value "^1.0.0"
+    unset-value "^1.0.0"
+
 caller-path@^0.1.0:
   version "0.1.0"
   resolved "https://registry.npmjs.org/caller-path/-/caller-path-0.1.0.tgz#94085ef63581ecd3daa92444a8fe94e82577751f"
@@ -1123,6 +1307,14 @@ chalk@^1.0.0, chalk@^1.1.1, chalk@^1.1.3:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
+chalk@^2.0.0:
+  version "2.3.2"
+  resolved "http://registry.npm.taobao.org/chalk/download/chalk-2.3.2.tgz#250dc96b07491bfd601e648d66ddf5f60c7a5c65"
+  dependencies:
+    ansi-styles "^3.2.1"
+    escape-string-regexp "^1.0.5"
+    supports-color "^5.3.0"
+
 chalk@^2.0.1, chalk@^2.1.0, chalk@^2.3.0:
   version "2.3.0"
   resolved "https://registry.npmjs.org/chalk/-/chalk-2.3.0.tgz#b5ea48efc9c1793dccc9b4767c93914d3f2d52ba"
@@ -1162,6 +1354,15 @@ clap@^1.0.9:
   resolved "https://registry.npmjs.org/clap/-/clap-1.2.3.tgz#4f36745b32008492557f46412d66d50cb99bce51"
   dependencies:
     chalk "^1.1.3"
+
+class-utils@^0.3.5:
+  version "0.3.6"
+  resolved "http://registry.npm.taobao.org/class-utils/download/class-utils-0.3.6.tgz#f93369ae8b9a7ce02fd41faad0ca83033190c463"
+  dependencies:
+    arr-union "^3.1.0"
+    define-property "^0.2.5"
+    isobject "^3.0.0"
+    static-extend "^0.1.1"
 
 clean-css@4.1.x:
   version "4.1.9"
@@ -1247,6 +1448,13 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
+collection-visit@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.npm.taobao.org/collection-visit/download/collection-visit-1.0.0.tgz#4bc0373c164bc3291b4d368c829cf1a80a59dca0"
+  dependencies:
+    map-visit "^1.0.0"
+    object-visit "^1.0.0"
+
 color-convert@^1.3.0, color-convert@^1.9.0:
   version "1.9.0"
   resolved "https://registry.npmjs.org/color-convert/-/color-convert-1.9.0.tgz#1accf97dd739b983bf994d56fec8f95853641b7a"
@@ -1296,6 +1504,10 @@ commander@*, commander@2.11.x, commander@^2.8.1, commander@^2.9.0, commander@~2.
 commondir@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/commondir/-/commondir-1.0.1.tgz#ddd800da0c66127393cca5950ea968a3aaf1253b"
+
+component-emitter@^1.2.1:
+  version "1.2.1"
+  resolved "http://registry.npm.taobao.org/component-emitter/download/component-emitter-1.2.1.tgz#137918d6d78283f7df7a6b7c5a63e140e69425e6"
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -1367,6 +1579,10 @@ cookie-signature@1.0.6:
 cookie@0.3.1:
   version "0.3.1"
   resolved "https://registry.npmjs.org/cookie/-/cookie-0.3.1.tgz#e7e0a1f9ef43b4c8ba925c5c5a96e806d16873bb"
+
+copy-descriptor@^0.1.0:
+  version "0.1.1"
+  resolved "http://registry.npm.taobao.org/copy-descriptor/download/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
 
 copy-webpack-plugin@^4.0.1:
   version "4.2.0"
@@ -1612,13 +1828,13 @@ de-indent@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/de-indent/-/de-indent-1.0.2.tgz#b2038e846dc33baa5796128d0804b455b8c1e21d"
 
-debug@*, debug@^3.0.0, debug@^3.1.0:
+debug@*, debug@^3.0.0, debug@^3.0.1, debug@^3.1.0:
   version "3.1.0"
-  resolved "https://registry.npmjs.org/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
+  resolved "http://registry.npm.taobao.org/debug/download/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
   dependencies:
     ms "2.0.0"
 
-debug@2.6.9, debug@^2.1.1, debug@^2.2.0, debug@^2.6.8, debug@^2.6.9:
+debug@2.6.9, debug@^2.1.1, debug@^2.2.0, debug@^2.3.3, debug@^2.6.8, debug@^2.6.9:
   version "2.6.9"
   resolved "https://registry.npmjs.org/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
   dependencies:
@@ -1628,6 +1844,10 @@ decamelize@^1.0.0, decamelize@^1.1.1, decamelize@^1.1.2:
   version "1.2.0"
   resolved "https://registry.npmjs.org/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
 
+decode-uri-component@^0.2.0:
+  version "0.2.0"
+  resolved "http://registry.npm.taobao.org/decode-uri-component/download/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
+
 deep-extend@~0.4.0:
   version "0.4.2"
   resolved "https://registry.npmjs.org/deep-extend/-/deep-extend-0.4.2.tgz#48b699c27e334bf89f10892be432f6e4c7d34a7f"
@@ -1635,6 +1855,25 @@ deep-extend@~0.4.0:
 deep-is@~0.1.3:
   version "0.1.3"
   resolved "https://registry.npmjs.org/deep-is/-/deep-is-0.1.3.tgz#b369d6fb5dbc13eecf524f91b070feedc357cf34"
+
+define-property@^0.2.5:
+  version "0.2.5"
+  resolved "http://registry.npm.taobao.org/define-property/download/define-property-0.2.5.tgz#c35b1ef918ec3c990f9a5bc57be04aacec5c8116"
+  dependencies:
+    is-descriptor "^0.1.0"
+
+define-property@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.npm.taobao.org/define-property/download/define-property-1.0.0.tgz#769ebaaf3f4a63aad3af9e8d304c9bbe79bfb0e6"
+  dependencies:
+    is-descriptor "^1.0.0"
+
+define-property@^2.0.2:
+  version "2.0.2"
+  resolved "http://registry.npm.taobao.org/define-property/download/define-property-2.0.2.tgz#d459689e8d654ba77e02a817f8710d702cb16e9d"
+  dependencies:
+    is-descriptor "^1.0.2"
+    isobject "^3.0.1"
 
 defined@^1.0.0:
   version "1.0.0"
@@ -1699,6 +1938,13 @@ doctrine@1.5.0, doctrine@^1.2.2:
   dependencies:
     esutils "^2.0.2"
     isarray "^1.0.0"
+
+doctrine@^0.7.2:
+  version "0.7.2"
+  resolved "http://registry.npm.taobao.org/doctrine/download/doctrine-0.7.2.tgz#7cb860359ba3be90e040b26b729ce4bfa654c523"
+  dependencies:
+    esutils "^1.1.6"
+    isarray "0.0.1"
 
 doctrine@^2.0.0:
   version "2.0.0"
@@ -1816,7 +2062,7 @@ encodeurl@~1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.1.tgz#79e3d58655346909fe6f0f45a5de68103b294d20"
 
-enhanced-resolve@^3.4.0:
+enhanced-resolve@^3.0.0, enhanced-resolve@^3.4.0:
   version "3.4.1"
   resolved "https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-3.4.1.tgz#0421e339fd71419b3da13d129b3979040230476e"
   dependencies:
@@ -1997,6 +2243,17 @@ eslint-plugin-standard@^3.0.1:
   version "3.0.1"
   resolved "https://registry.npmjs.org/eslint-plugin-standard/-/eslint-plugin-standard-3.0.1.tgz#34d0c915b45edc6f010393c7eef3823b08565cf2"
 
+eslint-scope@~3.7.1:
+  version "3.7.1"
+  resolved "http://registry.npm.taobao.org/eslint-scope/download/eslint-scope-3.7.1.tgz#3d63c3edfda02e06e01a452ad88caacc7cdcb6e8"
+  dependencies:
+    esrecurse "^4.1.0"
+    estraverse "^4.1.1"
+
+eslint-visitor-keys@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.npm.taobao.org/eslint-visitor-keys/download/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
+
 eslint@^2.7.0:
   version "2.13.1"
   resolved "https://registry.npmjs.org/eslint/-/eslint-2.13.1.tgz#e4cc8fa0f009fb829aaae23855a29360be1f6c11"
@@ -2107,6 +2364,10 @@ estraverse@^4.0.0, estraverse@^4.1.0, estraverse@^4.1.1, estraverse@^4.2.0:
   version "4.2.0"
   resolved "https://registry.npmjs.org/estraverse/-/estraverse-4.2.0.tgz#0dee3fed31fcd469618ce7342099fc1afa0bdb13"
 
+esutils@^1.1.6:
+  version "1.1.6"
+  resolved "http://registry.npm.taobao.org/esutils/download/esutils-1.1.6.tgz#c01ccaa9ae4b897c6d0c3e210ae52f3c7a844375"
+
 esutils@^2.0.2:
   version "2.0.2"
   resolved "https://registry.npmjs.org/esutils/-/esutils-2.0.2.tgz#0abf4f1caa5bcb1f7a9d8acc6dea4faaa04bac9b"
@@ -2181,6 +2442,18 @@ expand-brackets@^0.1.4:
   dependencies:
     is-posix-bracket "^0.1.0"
 
+expand-brackets@^2.1.4:
+  version "2.1.4"
+  resolved "http://registry.npm.taobao.org/expand-brackets/download/expand-brackets-2.1.4.tgz#b77735e315ce30f6b6eff0f83b04151a22449622"
+  dependencies:
+    debug "^2.3.3"
+    define-property "^0.2.5"
+    extend-shallow "^2.0.1"
+    posix-character-classes "^0.1.0"
+    regex-not "^1.0.0"
+    snapdragon "^0.8.1"
+    to-regex "^3.0.1"
+
 expand-range@^1.8.1:
   version "1.8.2"
   resolved "https://registry.npmjs.org/expand-range/-/expand-range-1.8.2.tgz#a299effd335fe2721ebae8e257ec79644fc85337"
@@ -2222,6 +2495,19 @@ express@^4.14.1, express@^4.15.2:
     utils-merge "1.0.1"
     vary "~1.1.2"
 
+extend-shallow@^2.0.1:
+  version "2.0.1"
+  resolved "http://registry.npm.taobao.org/extend-shallow/download/extend-shallow-2.0.1.tgz#51af7d614ad9a9f610ea1bafbb989d6b1c56890f"
+  dependencies:
+    is-extendable "^0.1.0"
+
+extend-shallow@^3.0.0, extend-shallow@^3.0.2:
+  version "3.0.2"
+  resolved "http://registry.npm.taobao.org/extend-shallow/download/extend-shallow-3.0.2.tgz#26a71aaf073b39fb2127172746131c2704028db8"
+  dependencies:
+    assign-symbols "^1.0.0"
+    is-extendable "^1.0.1"
+
 extend@^3.0.0, extend@~3.0.0, extend@~3.0.1:
   version "3.0.1"
   resolved "https://registry.npmjs.org/extend/-/extend-3.0.1.tgz#a755ea7bc1adfcc5a31ce7e762dbaadc5e636444"
@@ -2231,6 +2517,19 @@ extglob@^0.3.1:
   resolved "https://registry.npmjs.org/extglob/-/extglob-0.3.2.tgz#2e18ff3d2f49ab2765cec9023f011daa8d8349a1"
   dependencies:
     is-extglob "^1.0.0"
+
+extglob@^2.0.4:
+  version "2.0.4"
+  resolved "http://registry.npm.taobao.org/extglob/download/extglob-2.0.4.tgz#ad00fe4dc612a9232e8718711dc5cb5ab0285543"
+  dependencies:
+    array-unique "^0.3.2"
+    define-property "^1.0.0"
+    expand-brackets "^2.1.4"
+    extend-shallow "^2.0.1"
+    fragment-cache "^0.2.1"
+    regex-not "^1.0.0"
+    snapdragon "^0.8.1"
+    to-regex "^3.0.1"
 
 extract-text-webpack-plugin@^3.0.0:
   version "3.0.2"
@@ -2307,6 +2606,15 @@ fill-range@^2.1.0:
     repeat-element "^1.1.2"
     repeat-string "^1.5.2"
 
+fill-range@^4.0.0:
+  version "4.0.0"
+  resolved "http://registry.npm.taobao.org/fill-range/download/fill-range-4.0.0.tgz#d544811d428f98eb06a63dc402d2403c328c38f7"
+  dependencies:
+    extend-shallow "^2.0.1"
+    is-number "^3.0.0"
+    repeat-string "^1.6.1"
+    to-regex-range "^2.1.0"
+
 finalhandler@1.1.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/finalhandler/-/finalhandler-1.1.0.tgz#ce0b6855b45853e791b2fcc680046d88253dd7f5"
@@ -2367,11 +2675,17 @@ follow-redirects@^1.2.3:
   dependencies:
     debug "^2.6.9"
 
+follow-redirects@^1.3.0:
+  version "1.4.1"
+  resolved "http://registry.npm.taobao.org/follow-redirects/download/follow-redirects-1.4.1.tgz#d8120f4518190f55aac65bb6fc7b85fcd666d6aa"
+  dependencies:
+    debug "^3.1.0"
+
 for-in@^0.1.3:
   version "0.1.8"
   resolved "https://registry.npmjs.org/for-in/-/for-in-0.1.8.tgz#d8773908e31256109952b1fdb9b3fa867d2775e1"
 
-for-in@^1.0.1:
+for-in@^1.0.1, for-in@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
 
@@ -2410,6 +2724,12 @@ form-data@~2.3.1:
 forwarded@~0.1.2:
   version "0.1.2"
   resolved "https://registry.npmjs.org/forwarded/-/forwarded-0.1.2.tgz#98c23dab1175657b8c0573e8ceccd91b0ff18c84"
+
+fragment-cache@^0.2.1:
+  version "0.2.1"
+  resolved "http://registry.npm.taobao.org/fragment-cache/download/fragment-cache-0.2.1.tgz#4290fad27f13e89be7f33799c6bc5a0abfff0d19"
+  dependencies:
+    map-cache "^0.2.2"
 
 fresh@0.5.2:
   version "0.5.2"
@@ -2526,6 +2846,10 @@ get-stream@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/get-stream/-/get-stream-3.0.0.tgz#8e943d1358dc37555054ecbe2edb05aa174ede14"
 
+get-value@^2.0.3, get-value@^2.0.6:
+  version "2.0.6"
+  resolved "http://registry.npm.taobao.org/get-value/download/get-value-2.0.6.tgz#dc15ca1c672387ca76bd37ac0a395ba2042a2c28"
+
 getpass@^0.1.1:
   version "0.1.7"
   resolved "https://registry.npmjs.org/getpass/-/getpass-0.1.7.tgz#5eff8e3e684d569ae4cb2b1282604e8ba62149fa"
@@ -2572,6 +2896,10 @@ global-dirs@^0.1.0:
   resolved "https://registry.npmjs.org/global-dirs/-/global-dirs-0.1.0.tgz#10d34039e0df04272e262cf24224f7209434df4f"
   dependencies:
     ini "^1.3.4"
+
+globals@^11.1.0:
+  version "11.3.0"
+  resolved "http://registry.npm.taobao.org/globals/download/globals-11.3.0.tgz#e04fdb7b9796d8adac9c8f64c14837b2313378b0"
 
 globals@^9.14.0, globals@^9.18.0, globals@^9.2.0:
   version "9.18.0"
@@ -2678,9 +3006,40 @@ has-flag@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/has-flag/-/has-flag-2.0.0.tgz#e8207af1cc7b30d446cc70b734b5e8be18f88d51"
 
+has-flag@^3.0.0:
+  version "3.0.0"
+  resolved "http://registry.npm.taobao.org/has-flag/download/has-flag-3.0.0.tgz#b5d454dc2199ae225699f3467e5a07f3b955bafd"
+
 has-unicode@^2.0.0:
   version "2.0.1"
   resolved "https://registry.npmjs.org/has-unicode/-/has-unicode-2.0.1.tgz#e0e6fe6a28cf51138855e086d1691e771de2a8b9"
+
+has-value@^0.3.1:
+  version "0.3.1"
+  resolved "http://registry.npm.taobao.org/has-value/download/has-value-0.3.1.tgz#7b1f58bada62ca827ec0a2078025654845995e1f"
+  dependencies:
+    get-value "^2.0.3"
+    has-values "^0.1.4"
+    isobject "^2.0.0"
+
+has-value@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.npm.taobao.org/has-value/download/has-value-1.0.0.tgz#18b281da585b1c5c51def24c930ed29a0be6b177"
+  dependencies:
+    get-value "^2.0.6"
+    has-values "^1.0.0"
+    isobject "^3.0.0"
+
+has-values@^0.1.4:
+  version "0.1.4"
+  resolved "http://registry.npm.taobao.org/has-values/download/has-values-0.1.4.tgz#6d61de95d91dfca9b9a02089ad384bff8f62b771"
+
+has-values@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.npm.taobao.org/has-values/download/has-values-1.0.0.tgz#95b0b63fec2146619a6fe57fe75628d5a39efe4f"
+  dependencies:
+    is-number "^3.0.0"
+    kind-of "^4.0.0"
 
 has@^1.0.1:
   version "1.0.1"
@@ -2955,6 +3314,12 @@ interpret@^1.0.0:
   version "1.0.4"
   resolved "https://registry.npmjs.org/interpret/-/interpret-1.0.4.tgz#820cdd588b868ffb191a809506d6c9c8f212b1b0"
 
+invariant@^2.2.0:
+  version "2.2.3"
+  resolved "http://registry.npm.taobao.org/invariant/download/invariant-2.2.3.tgz#1a827dfde7dcbd7c323f0ca826be8fa7c5e9d688"
+  dependencies:
+    loose-envify "^1.0.0"
+
 invariant@^2.2.2:
   version "2.2.2"
   resolved "https://registry.npmjs.org/invariant/-/invariant-2.2.2.tgz#9e1f56ac0acdb6bf303306f338be3b204ae60360"
@@ -2972,6 +3337,18 @@ ipaddr.js@1.5.2:
 is-absolute-url@^2.0.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/is-absolute-url/-/is-absolute-url-2.1.0.tgz#50530dfb84fcc9aa7dbe7852e83a37b93b9f2aa6"
+
+is-accessor-descriptor@^0.1.6:
+  version "0.1.6"
+  resolved "http://registry.npm.taobao.org/is-accessor-descriptor/download/is-accessor-descriptor-0.1.6.tgz#a9e12cb3ae8d876727eeef3843f8a0897b5c98d6"
+  dependencies:
+    kind-of "^3.0.2"
+
+is-accessor-descriptor@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.npm.taobao.org/is-accessor-descriptor/download/is-accessor-descriptor-1.0.0.tgz#169c2f6d3df1f992618072365c9b0ea1f6878656"
+  dependencies:
+    kind-of "^6.0.0"
 
 is-arrayish@^0.2.1:
   version "0.2.1"
@@ -2993,6 +3370,34 @@ is-builtin-module@^1.0.0:
   dependencies:
     builtin-modules "^1.0.0"
 
+is-data-descriptor@^0.1.4:
+  version "0.1.4"
+  resolved "http://registry.npm.taobao.org/is-data-descriptor/download/is-data-descriptor-0.1.4.tgz#0b5ee648388e2c860282e793f1856fec3f301b56"
+  dependencies:
+    kind-of "^3.0.2"
+
+is-data-descriptor@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.npm.taobao.org/is-data-descriptor/download/is-data-descriptor-1.0.0.tgz#d84876321d0e7add03990406abbbbd36ba9268c7"
+  dependencies:
+    kind-of "^6.0.0"
+
+is-descriptor@^0.1.0:
+  version "0.1.6"
+  resolved "http://registry.npm.taobao.org/is-descriptor/download/is-descriptor-0.1.6.tgz#366d8240dde487ca51823b1ab9f07a10a78251ca"
+  dependencies:
+    is-accessor-descriptor "^0.1.6"
+    is-data-descriptor "^0.1.4"
+    kind-of "^5.0.0"
+
+is-descriptor@^1.0.0, is-descriptor@^1.0.2:
+  version "1.0.2"
+  resolved "http://registry.npm.taobao.org/is-descriptor/download/is-descriptor-1.0.2.tgz#3b159746a66604b04f8c81524ba365c5f14d86ec"
+  dependencies:
+    is-accessor-descriptor "^1.0.0"
+    is-data-descriptor "^1.0.0"
+    kind-of "^6.0.2"
+
 is-directory@^0.3.1:
   version "0.3.1"
   resolved "https://registry.npmjs.org/is-directory/-/is-directory-0.3.1.tgz#61339b6f2475fc772fd9c9d83f5c8575dc154ae1"
@@ -3007,9 +3412,15 @@ is-equal-shallow@^0.1.3:
   dependencies:
     is-primitive "^2.0.0"
 
-is-extendable@^0.1.1:
+is-extendable@^0.1.0, is-extendable@^0.1.1:
   version "0.1.1"
   resolved "https://registry.npmjs.org/is-extendable/-/is-extendable-0.1.1.tgz#62b110e289a471418e3ec36a617d472e301dfc89"
+
+is-extendable@^1.0.1:
+  version "1.0.1"
+  resolved "http://registry.npm.taobao.org/is-extendable/download/is-extendable-1.0.1.tgz#a7470f9e426733d81bd81e1155264e3a3507cab4"
+  dependencies:
+    is-plain-object "^2.0.4"
 
 is-extglob@^1.0.0:
   version "1.0.0"
@@ -3085,9 +3496,19 @@ is-number@^3.0.0:
   dependencies:
     kind-of "^3.0.2"
 
+is-number@^4.0.0:
+  version "4.0.0"
+  resolved "http://registry.npm.taobao.org/is-number/download/is-number-4.0.0.tgz#0026e37f5454d73e356dfe6564699867c6a7f0ff"
+
 is-obj@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npmjs.org/is-obj/-/is-obj-1.0.1.tgz#3e4729ac1f5fde025cd7d83a896dab9f4f67db0f"
+
+is-odd@^2.0.0:
+  version "2.0.0"
+  resolved "http://registry.npm.taobao.org/is-odd/download/is-odd-2.0.0.tgz#7646624671fd7ea558ccd9a2795182f2958f1b24"
+  dependencies:
+    is-number "^4.0.0"
 
 is-path-cwd@^1.0.0:
   version "1.0.0"
@@ -3109,7 +3530,7 @@ is-plain-obj@^1.0.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/is-plain-obj/-/is-plain-obj-1.1.0.tgz#71a50c8429dfca773c92a390a4a03b39fcd51d3e"
 
-is-plain-object@^2.0.1:
+is-plain-object@^2.0.1, is-plain-object@^2.0.3, is-plain-object@^2.0.4:
   version "2.0.4"
   resolved "https://registry.npmjs.org/is-plain-object/-/is-plain-object-2.0.4.tgz#2c163b3fafb1b606d9d17928f05c2a1c38e07677"
   dependencies:
@@ -3167,6 +3588,10 @@ is-utf8@^0.2.0:
   version "0.2.1"
   resolved "https://registry.npmjs.org/is-utf8/-/is-utf8-0.2.1.tgz#4b0da1442104d1b336340e80797e865cf39f7d72"
 
+is-windows@^1.0.2:
+  version "1.0.2"
+  resolved "http://registry.npm.taobao.org/is-windows/download/is-windows-1.0.2.tgz#d1850eb9791ecd18e6182ce12a30f396634bb19d"
+
 is-wsl@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/is-wsl/-/is-wsl-1.1.0.tgz#1f16e4aa22b04d1336b66188a66af3c600c3a66d"
@@ -3189,7 +3614,7 @@ isobject@^2.0.0:
   dependencies:
     isarray "1.0.0"
 
-isobject@^3.0.1:
+isobject@^3.0.0, isobject@^3.0.1:
   version "3.0.1"
   resolved "https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
 
@@ -3226,6 +3651,10 @@ jsbn@~0.1.0:
 jsesc@^1.3.0:
   version "1.3.0"
   resolved "https://registry.npmjs.org/jsesc/-/jsesc-1.3.0.tgz#46c3fec8c1892b12b0833db9bc7622176dbab34b"
+
+jsesc@^2.5.1:
+  version "2.5.1"
+  resolved "http://registry.npm.taobao.org/jsesc/download/jsesc-2.5.1.tgz#e421a2a8e20d6b0819df28908f782526b96dd1fe"
 
 jsesc@~0.5.0:
   version "0.5.0"
@@ -3292,7 +3721,7 @@ kind-of@^2.0.1:
   dependencies:
     is-buffer "^1.0.2"
 
-kind-of@^3.0.2, kind-of@^3.2.2:
+kind-of@^3.0.2, kind-of@^3.0.3, kind-of@^3.2.0, kind-of@^3.2.2:
   version "3.2.2"
   resolved "https://registry.npmjs.org/kind-of/-/kind-of-3.2.2.tgz#31ea21a734bab9bbb0f32466d893aea51e4a3c64"
   dependencies:
@@ -3303,6 +3732,14 @@ kind-of@^4.0.0:
   resolved "https://registry.npmjs.org/kind-of/-/kind-of-4.0.0.tgz#20813df3d712928b207378691a45066fae72dd57"
   dependencies:
     is-buffer "^1.1.5"
+
+kind-of@^5.0.0:
+  version "5.1.0"
+  resolved "http://registry.npm.taobao.org/kind-of/download/kind-of-5.1.0.tgz#729c91e2d857b7a419a1f9aa65685c4c33f5845d"
+
+kind-of@^6.0.0, kind-of@^6.0.2:
+  version "6.0.2"
+  resolved "http://registry.npm.taobao.org/kind-of/download/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
 
 known-css-properties@^0.3.0:
   version "0.3.0"
@@ -3332,6 +3769,12 @@ lazy-cache@^0.2.3:
 lazy-cache@^1.0.3:
   version "1.0.4"
   resolved "https://registry.npmjs.org/lazy-cache/-/lazy-cache-1.0.4.tgz#a1d78fc3a50474cb80845d3b3b6e1da49a446e8e"
+
+lazy-cache@^2.0.2:
+  version "2.0.2"
+  resolved "http://registry.npm.taobao.org/lazy-cache/download/lazy-cache-2.0.2.tgz#b9190a4f913354694840859f8a8f7084d8822264"
+  dependencies:
+    set-getter "^0.1.0"
 
 lcid@^1.0.0:
   version "1.0.0"
@@ -3510,6 +3953,10 @@ lodash@^4.0.0, lodash@^4.14.0, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.17.4, l
   version "4.17.4"
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
+lodash@^4.2.0:
+  version "4.17.5"
+  resolved "http://registry.npm.taobao.org/lodash/download/lodash-4.17.5.tgz#99a92d65c0272debe8c96b6057bc8fbfa3bed511"
+
 log-symbols@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/log-symbols/-/log-symbols-1.0.2.tgz#376ff7b58ea3086a0f09facc74617eca501e1a18"
@@ -3564,6 +4011,10 @@ make-dir@^1.0.0:
   dependencies:
     pify "^3.0.0"
 
+map-cache@^0.2.2:
+  version "0.2.2"
+  resolved "http://registry.npm.taobao.org/map-cache/download/map-cache-0.2.2.tgz#c32abd0bd6525d9b051645bb4f26ac5dc98a0dbf"
+
 map-obj@^1.0.0, map-obj@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/map-obj/-/map-obj-1.0.1.tgz#d933ceb9205d82bdcf4886f6742bdc2b4dea146d"
@@ -3571,6 +4022,12 @@ map-obj@^1.0.0, map-obj@^1.0.1:
 map-stream@~0.1.0:
   version "0.1.0"
   resolved "https://registry.npmjs.org/map-stream/-/map-stream-0.1.0.tgz#e56aa94c4c8055a16404a0674b78f215f7c8e194"
+
+map-visit@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.npm.taobao.org/map-visit/download/map-visit-1.0.0.tgz#ecdca8f13144e660f1b5bd41f12f3479d98dfb8f"
+  dependencies:
+    object-visit "^1.0.0"
 
 math-expression-evaluator@^1.2.14:
   version "1.2.17"
@@ -3649,6 +4106,24 @@ micromatch@^2.1.5, micromatch@^2.3.11:
     parse-glob "^3.0.4"
     regex-cache "^0.4.2"
 
+micromatch@^3.1.4:
+  version "3.1.9"
+  resolved "http://registry.npm.taobao.org/micromatch/download/micromatch-3.1.9.tgz#15dc93175ae39e52e93087847096effc73efcf89"
+  dependencies:
+    arr-diff "^4.0.0"
+    array-unique "^0.3.2"
+    braces "^2.3.1"
+    define-property "^2.0.2"
+    extend-shallow "^3.0.2"
+    extglob "^2.0.4"
+    fragment-cache "^0.2.1"
+    kind-of "^6.0.2"
+    nanomatch "^1.2.9"
+    object.pick "^1.3.0"
+    regex-not "^1.0.0"
+    snapdragon "^0.8.1"
+    to-regex "^3.0.1"
+
 miller-rabin@^4.0.0:
   version "4.0.1"
   resolved "https://registry.npmjs.org/miller-rabin/-/miller-rabin-4.0.1.tgz#f080351c865b0dc562a8462966daa53543c78a4d"
@@ -3666,13 +4141,13 @@ mime-types@^2.1.12, mime-types@~2.1.15, mime-types@~2.1.16, mime-types@~2.1.17, 
   dependencies:
     mime-db "~1.30.0"
 
-mime@1.3.x:
-  version "1.3.6"
-  resolved "https://registry.npmjs.org/mime/-/mime-1.3.6.tgz#591d84d3653a6b0b4a3b9df8de5aa8108e72e5e0"
-
 mime@1.4.1, mime@^1.3.4:
   version "1.4.1"
   resolved "https://registry.npmjs.org/mime/-/mime-1.4.1.tgz#121f9ebc49e3766f311a76e1fa1c8003c4b03aa6"
+
+mime@^1.4.1:
+  version "1.6.0"
+  resolved "http://registry.npm.taobao.org/mime/download/mime-1.6.0.tgz#32cd9e5c64553bd58d19a568af452acff04981b1"
 
 mimic-fn@^1.0.0:
   version "1.1.0"
@@ -3704,6 +4179,13 @@ minimist@^1.1.3, minimist@^1.2.0:
   version "1.2.0"
   resolved "https://registry.npmjs.org/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
 
+mixin-deep@^1.2.0:
+  version "1.3.1"
+  resolved "http://registry.npm.taobao.org/mixin-deep/download/mixin-deep-1.3.1.tgz#a49e7268dce1a0d9698e45326c5626df3543d0fe"
+  dependencies:
+    for-in "^1.0.2"
+    is-extendable "^1.0.1"
+
 mixin-object@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/mixin-object/-/mixin-object-2.0.1.tgz#4fb949441dab182540f1fe035ba60e1947a5e57e"
@@ -3734,6 +4216,23 @@ mute-stream@0.0.5:
 nan@^2.3.0, nan@^2.3.2:
   version "2.7.0"
   resolved "https://registry.npmjs.org/nan/-/nan-2.7.0.tgz#d95bf721ec877e08db276ed3fc6eb78f9083ad46"
+
+nanomatch@^1.2.9:
+  version "1.2.9"
+  resolved "http://registry.npm.taobao.org/nanomatch/download/nanomatch-1.2.9.tgz#879f7150cb2dab7a471259066c104eee6e0fa7c2"
+  dependencies:
+    arr-diff "^4.0.0"
+    array-unique "^0.3.2"
+    define-property "^2.0.2"
+    extend-shallow "^3.0.2"
+    fragment-cache "^0.2.1"
+    is-odd "^2.0.0"
+    is-windows "^1.0.2"
+    kind-of "^6.0.2"
+    object.pick "^1.3.0"
+    regex-not "^1.0.0"
+    snapdragon "^0.8.1"
+    to-regex "^3.0.1"
 
 natural-compare@^1.4.0:
   version "1.4.0"
@@ -3949,9 +4448,23 @@ object-assign@^4.0.1, object-assign@^4.1.0:
   version "4.1.1"
   resolved "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
 
+object-copy@^0.1.0:
+  version "0.1.0"
+  resolved "http://registry.npm.taobao.org/object-copy/download/object-copy-0.1.0.tgz#7e7d858b781bd7c991a41ba975ed3812754e998c"
+  dependencies:
+    copy-descriptor "^0.1.0"
+    define-property "^0.2.5"
+    kind-of "^3.0.3"
+
 object-hash@^1.1.4:
   version "1.2.0"
   resolved "https://registry.npmjs.org/object-hash/-/object-hash-1.2.0.tgz#e96af0e96981996a1d47f88ead8f74f1ebc4422b"
+
+object-visit@^1.0.0:
+  version "1.0.1"
+  resolved "http://registry.npm.taobao.org/object-visit/download/object-visit-1.0.1.tgz#f79c4493af0c5377b59fe39d395e41042dd045bb"
+  dependencies:
+    isobject "^3.0.0"
 
 object.omit@^2.0.0:
   version "2.0.1"
@@ -3959,6 +4472,12 @@ object.omit@^2.0.0:
   dependencies:
     for-own "^0.1.4"
     is-extendable "^0.1.1"
+
+object.pick@^1.3.0:
+  version "1.3.0"
+  resolved "http://registry.npm.taobao.org/object.pick/download/object.pick-1.3.0.tgz#87a10ac4c1694bd2e1cbf53591a66141fb5dd747"
+  dependencies:
+    isobject "^3.0.1"
 
 on-finished@~2.3.0:
   version "2.3.0"
@@ -4120,6 +4639,10 @@ parseurl@~1.3.2:
   version "1.3.2"
   resolved "https://registry.npmjs.org/parseurl/-/parseurl-1.3.2.tgz#fc289d4ed8993119460c156253262cdc8de65bf3"
 
+pascalcase@^0.1.1:
+  version "0.1.1"
+  resolved "http://registry.npm.taobao.org/pascalcase/download/pascalcase-0.1.1.tgz#b363e55e8006ca6fe21784d2db22bd15d7917f14"
+
 path-browserify@0.0.0:
   version "0.0.0"
   resolved "https://registry.npmjs.org/path-browserify/-/path-browserify-0.0.0.tgz#a0b870729aae214005b7d5032ec2cbbb0fb4451a"
@@ -4233,6 +4756,10 @@ portfinder@^1.0.13:
     async "^1.5.2"
     debug "^2.2.0"
     mkdirp "0.5.x"
+
+posix-character-classes@^0.1.0:
+  version "0.1.1"
+  resolved "http://registry.npm.taobao.org/posix-character-classes/download/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
 
 postcss-calc@^5.2.0:
   version "5.3.1"
@@ -4806,6 +5333,13 @@ regex-cache@^0.4.2:
   dependencies:
     is-equal-shallow "^0.1.3"
 
+regex-not@^1.0.0, regex-not@^1.0.2:
+  version "1.0.2"
+  resolved "http://registry.npm.taobao.org/regex-not/download/regex-not-1.0.2.tgz#1f4ece27e00b0b65e0247a6810e6a85d83a5752c"
+  dependencies:
+    extend-shallow "^3.0.2"
+    safe-regex "^1.1.0"
+
 regexpu-core@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/regexpu-core/-/regexpu-core-1.0.0.tgz#86a763f58ee4d7c2f6b102e4764050de7ed90c6b"
@@ -4867,7 +5401,7 @@ repeat-element@^1.1.2:
   version "1.1.2"
   resolved "https://registry.npmjs.org/repeat-element/-/repeat-element-1.1.2.tgz#ef089a178d1483baae4d93eb98b4f9e4e11d990a"
 
-repeat-string@^1.5.2:
+repeat-string@^1.5.2, repeat-string@^1.6.1:
   version "1.6.1"
   resolved "https://registry.npmjs.org/repeat-string/-/repeat-string-1.6.1.tgz#8dcae470e1c88abc2d600fff4a776286da75e637"
 
@@ -4966,6 +5500,10 @@ resolve-from@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/resolve-from/-/resolve-from-4.0.0.tgz#4abcd852ad32dd7baabfe9b40e00a36db5f392e6"
 
+resolve-url@^0.2.1:
+  version "0.2.1"
+  resolved "http://registry.npm.taobao.org/resolve-url/download/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
+
 resolve@^1.1.6, resolve@^1.2.0, resolve@^1.3.3, resolve@^1.4.0:
   version "1.5.0"
   resolved "https://registry.npmjs.org/resolve/-/resolve-1.5.0.tgz#1f09acce796c9a762579f31b2c1cc4c3cddf9f36"
@@ -4985,6 +5523,10 @@ restore-cursor@^2.0.0:
   dependencies:
     onetime "^2.0.0"
     signal-exit "^3.0.2"
+
+ret@~0.1.10:
+  version "0.1.15"
+  resolved "http://registry.npm.taobao.org/ret/download/ret-0.1.15.tgz#b8a4825d5bdb1fc3f6f53c2bc33f81388681c7bc"
 
 right-align@^0.1.1:
   version "0.1.3"
@@ -5022,6 +5564,12 @@ safe-buffer@5.1.1, safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, s
 safe-buffer@~5.0.1:
   version "5.0.1"
   resolved "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.0.1.tgz#d263ca54696cd8a306b5ca6551e92de57918fbe7"
+
+safe-regex@^1.1.0:
+  version "1.1.0"
+  resolved "http://registry.npm.taobao.org/safe-regex/download/safe-regex-1.1.0.tgz#40a3669f3b077d1e943d44629e157dd48023bf2e"
+  dependencies:
+    ret "~0.1.10"
 
 sass-graph@^2.2.4:
   version "2.2.4"
@@ -5100,6 +5648,10 @@ semver@5.3.0, semver@~5.3.0:
   version "5.3.0"
   resolved "https://registry.npmjs.org/semver/-/semver-5.3.0.tgz#9b2ce5d3de02d17c6012ad326aa6b4d0cf54f94f"
 
+semver@^5.0.1:
+  version "5.5.0"
+  resolved "http://registry.npm.taobao.org/semver/download/semver-5.5.0.tgz#dc4bbc7a6ca9d916dee5d43516f0092b58f7b8ab"
+
 send@0.16.1:
   version "0.16.1"
   resolved "https://registry.npmjs.org/send/-/send-0.16.1.tgz#a70e1ca21d1382c11d0d9f6231deb281080d7ab3"
@@ -5131,9 +5683,33 @@ set-blocking@^2.0.0, set-blocking@~2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/set-blocking/-/set-blocking-2.0.0.tgz#045f9782d011ae9a6803ddd382b24392b3d890f7"
 
+set-getter@^0.1.0:
+  version "0.1.0"
+  resolved "http://registry.npm.taobao.org/set-getter/download/set-getter-0.1.0.tgz#d769c182c9d5a51f409145f2fba82e5e86e80376"
+  dependencies:
+    to-object-path "^0.3.0"
+
 set-immediate-shim@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/set-immediate-shim/-/set-immediate-shim-1.0.1.tgz#4b2b1b27eb808a9f8dcc481a58e5e56f599f3f61"
+
+set-value@^0.4.3:
+  version "0.4.3"
+  resolved "http://registry.npm.taobao.org/set-value/download/set-value-0.4.3.tgz#7db08f9d3d22dc7f78e53af3c3bf4666ecdfccf1"
+  dependencies:
+    extend-shallow "^2.0.1"
+    is-extendable "^0.1.1"
+    is-plain-object "^2.0.1"
+    to-object-path "^0.3.0"
+
+set-value@^2.0.0:
+  version "2.0.0"
+  resolved "http://registry.npm.taobao.org/set-value/download/set-value-2.0.0.tgz#71ae4a88f0feefbbf52d1ea604f3fb315ebb6274"
+  dependencies:
+    extend-shallow "^2.0.1"
+    is-extendable "^0.1.1"
+    is-plain-object "^2.0.3"
+    split-string "^3.0.1"
 
 setimmediate@^1.0.4:
   version "1.0.5"
@@ -5203,6 +5779,33 @@ slice-ansi@1.0.0:
   dependencies:
     is-fullwidth-code-point "^2.0.0"
 
+snapdragon-node@^2.0.1:
+  version "2.1.1"
+  resolved "http://registry.npm.taobao.org/snapdragon-node/download/snapdragon-node-2.1.1.tgz#6c175f86ff14bdb0724563e8f3c1b021a286853b"
+  dependencies:
+    define-property "^1.0.0"
+    isobject "^3.0.0"
+    snapdragon-util "^3.0.1"
+
+snapdragon-util@^3.0.1:
+  version "3.0.1"
+  resolved "http://registry.npm.taobao.org/snapdragon-util/download/snapdragon-util-3.0.1.tgz#f956479486f2acd79700693f6f7b805e45ab56e2"
+  dependencies:
+    kind-of "^3.2.0"
+
+snapdragon@^0.8.1:
+  version "0.8.1"
+  resolved "http://registry.npm.taobao.org/snapdragon/download/snapdragon-0.8.1.tgz#e12b5487faded3e3dea0ac91e9400bf75b401370"
+  dependencies:
+    base "^0.11.1"
+    debug "^2.2.0"
+    define-property "^0.2.5"
+    extend-shallow "^2.0.1"
+    map-cache "^0.2.2"
+    source-map "^0.5.6"
+    source-map-resolve "^0.5.0"
+    use "^2.0.0"
+
 sntp@1.x.x:
   version "1.0.9"
   resolved "https://registry.npmjs.org/sntp/-/sntp-1.0.9.tgz#6541184cc90aeea6c6e7b35e2659082443c66198"
@@ -5225,11 +5828,25 @@ source-list-map@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/source-list-map/-/source-list-map-2.0.0.tgz#aaa47403f7b245a92fbc97ea08f250d6087ed085"
 
+source-map-resolve@^0.5.0:
+  version "0.5.1"
+  resolved "http://registry.npm.taobao.org/source-map-resolve/download/source-map-resolve-0.5.1.tgz#7ad0f593f2281598e854df80f19aae4b92d7a11a"
+  dependencies:
+    atob "^2.0.0"
+    decode-uri-component "^0.2.0"
+    resolve-url "^0.2.1"
+    source-map-url "^0.4.0"
+    urix "^0.1.0"
+
 source-map-support@^0.4.15:
   version "0.4.18"
   resolved "https://registry.npmjs.org/source-map-support/-/source-map-support-0.4.18.tgz#0286a6de8be42641338594e97ccea75f0a2c585f"
   dependencies:
     source-map "^0.5.6"
+
+source-map-url@^0.4.0:
+  version "0.4.0"
+  resolved "http://registry.npm.taobao.org/source-map-url/download/source-map-url-0.4.0.tgz#3e935d7ddd73631b97659956d55128e87b5084a3"
 
 source-map@0.1.x:
   version "0.1.43"
@@ -5237,7 +5854,7 @@ source-map@0.1.x:
   dependencies:
     amdefine ">=0.0.4"
 
-source-map@0.5.x, source-map@^0.5.3, source-map@^0.5.6, source-map@~0.5.1:
+source-map@0.5.x, source-map@^0.5.0, source-map@^0.5.3, source-map@^0.5.6, source-map@~0.5.1:
   version "0.5.7"
   resolved "https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
 
@@ -5247,7 +5864,7 @@ source-map@^0.4.2:
   dependencies:
     amdefine ">=0.0.4"
 
-source-map@^0.6.1, source-map@~0.6.1:
+source-map@^0.6.0, source-map@^0.6.1, source-map@~0.6.1:
   version "0.6.1"
   resolved "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
 
@@ -5268,6 +5885,12 @@ spdx-license-ids@^1.0.2:
 specificity@^0.3.1:
   version "0.3.2"
   resolved "https://registry.npmjs.org/specificity/-/specificity-0.3.2.tgz#99e6511eceef0f8d9b57924937aac2cb13d13c42"
+
+split-string@^3.0.1, split-string@^3.0.2:
+  version "3.1.0"
+  resolved "http://registry.npm.taobao.org/split-string/download/split-string-3.1.0.tgz#7cb09dda3a86585705c64b39a6466038682e8fe2"
+  dependencies:
+    extend-shallow "^3.0.0"
 
 split@0.3:
   version "0.3.3"
@@ -5296,6 +5919,13 @@ sshpk@^1.7.0:
 stackframe@^1.0.3:
   version "1.0.4"
   resolved "https://registry.npmjs.org/stackframe/-/stackframe-1.0.4.tgz#357b24a992f9427cba6b545d96a14ed2cbca187b"
+
+static-extend@^0.1.1:
+  version "0.1.2"
+  resolved "http://registry.npm.taobao.org/static-extend/download/static-extend-0.1.2.tgz#60809c39cbff55337226fd5e0b520f341f1fb5c6"
+  dependencies:
+    define-property "^0.2.5"
+    object-copy "^0.1.0"
 
 "statuses@>= 1.3.1 < 2":
   version "1.4.0"
@@ -5517,6 +6147,12 @@ supports-color@^4.0.0, supports-color@^4.2.1, supports-color@^4.4.0:
   dependencies:
     has-flag "^2.0.0"
 
+supports-color@^5.3.0:
+  version "5.3.0"
+  resolved "http://registry.npm.taobao.org/supports-color/download/supports-color-5.3.0.tgz#5b24ac15db80fa927cf5227a4a33fd3c4c7676c0"
+  dependencies:
+    has-flag "^3.0.0"
+
 svg-tags@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/svg-tags/-/svg-tags-1.0.0.tgz#58f71cee3bd519b59d4b2a843b6c7de64ac04764"
@@ -5616,6 +6252,32 @@ to-fast-properties@^1.0.3:
   version "1.0.3"
   resolved "https://registry.npmjs.org/to-fast-properties/-/to-fast-properties-1.0.3.tgz#b83571fa4d8c25b82e231b06e3a3055de4ca1a47"
 
+to-fast-properties@^2.0.0:
+  version "2.0.0"
+  resolved "http://registry.npm.taobao.org/to-fast-properties/download/to-fast-properties-2.0.0.tgz#dc5e698cbd079265bc73e0377681a4e4e83f616e"
+
+to-object-path@^0.3.0:
+  version "0.3.0"
+  resolved "http://registry.npm.taobao.org/to-object-path/download/to-object-path-0.3.0.tgz#297588b7b0e7e0ac08e04e672f85c1f4999e17af"
+  dependencies:
+    kind-of "^3.0.2"
+
+to-regex-range@^2.1.0:
+  version "2.1.1"
+  resolved "http://registry.npm.taobao.org/to-regex-range/download/to-regex-range-2.1.1.tgz#7c80c17b9dfebe599e27367e0d4dd5590141db38"
+  dependencies:
+    is-number "^3.0.0"
+    repeat-string "^1.6.1"
+
+to-regex@^3.0.1:
+  version "3.0.2"
+  resolved "http://registry.npm.taobao.org/to-regex/download/to-regex-3.0.2.tgz#13cfdd9b336552f30b51f33a8ae1b42a7a7599ce"
+  dependencies:
+    define-property "^2.0.2"
+    extend-shallow "^3.0.2"
+    regex-not "^1.0.2"
+    safe-regex "^1.1.0"
+
 toposort@^1.0.0:
   version "1.0.6"
   resolved "https://registry.npmjs.org/toposort/-/toposort-1.0.6.tgz#c31748e55d210effc00fdcdc7d6e68d7d7bb9cec"
@@ -5643,6 +6305,38 @@ trim-right@^1.0.1:
 tryit@^1.0.1:
   version "1.0.3"
   resolved "https://registry.npmjs.org/tryit/-/tryit-1.0.3.tgz#393be730a9446fd1ead6da59a014308f36c289cb"
+
+ts-loader@^3.5.0:
+  version "3.5.0"
+  resolved "http://registry.npm.taobao.org/ts-loader/download/ts-loader-3.5.0.tgz#151d004dcddb4cf8e381a3bf9d6b74c2d957a9c0"
+  dependencies:
+    chalk "^2.3.0"
+    enhanced-resolve "^3.0.0"
+    loader-utils "^1.0.2"
+    micromatch "^3.1.4"
+    semver "^5.0.1"
+
+tslib@^1.0.0:
+  version "1.9.0"
+  resolved "http://registry.npm.taobao.org/tslib/download/tslib-1.9.0.tgz#e37a86fda8cbbaf23a057f473c9f4dc64e5fc2e8"
+
+tslint-config-standard@^7.0.0:
+  version "7.0.0"
+  resolved "http://registry.npm.taobao.org/tslint-config-standard/download/tslint-config-standard-7.0.0.tgz#47bbf25578ed2212456f892d51e1abe884a29f15"
+  dependencies:
+    tslint-eslint-rules "^4.1.1"
+
+tslint-eslint-rules@^4.1.1:
+  version "4.1.1"
+  resolved "http://registry.npm.taobao.org/tslint-eslint-rules/download/tslint-eslint-rules-4.1.1.tgz#7c30e7882f26bc276bff91d2384975c69daf88ba"
+  dependencies:
+    doctrine "^0.7.2"
+    tslib "^1.0.0"
+    tsutils "^1.4.0"
+
+tsutils@^1.4.0:
+  version "1.9.1"
+  resolved "http://registry.npm.taobao.org/tsutils/download/tsutils-1.9.1.tgz#b9f9ab44e55af9681831d5f28d0aeeaf5c750cb0"
 
 tty-browserify@0.0.0:
   version "0.0.0"
@@ -5674,6 +6368,10 @@ type-is@~1.6.15:
 typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
+
+typescript@^2.7.2:
+  version "2.7.2"
+  resolved "http://registry.npm.taobao.org/typescript/download/typescript-2.7.2.tgz#2d615a1ef4aee4f574425cdff7026edf81919836"
 
 uglify-js@3.1.x:
   version "3.1.7"
@@ -5715,6 +6413,15 @@ undefsafe@0.0.3:
   version "0.0.3"
   resolved "https://registry.npmjs.org/undefsafe/-/undefsafe-0.0.3.tgz#ecca3a03e56b9af17385baac812ac83b994a962f"
 
+union-value@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.npm.taobao.org/union-value/download/union-value-1.0.0.tgz#5c71c34cb5bad5dcebe3ea0cd08207ba5aa1aea4"
+  dependencies:
+    arr-union "^3.1.0"
+    get-value "^2.0.6"
+    is-extendable "^0.1.1"
+    set-value "^0.4.3"
+
 uniq@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/uniq/-/uniq-1.0.1.tgz#b31c5ae8254844a3a8281541ce2b04b865a734ff"
@@ -5743,6 +6450,13 @@ unpipe@1.0.0, unpipe@~1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
 
+unset-value@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.npm.taobao.org/unset-value/download/unset-value-1.0.0.tgz#8376873f7d2335179ffb1e6fc3a8ed0dfc8ab559"
+  dependencies:
+    has-value "^0.3.1"
+    isobject "^3.0.0"
+
 unzip-response@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/unzip-response/-/unzip-response-2.0.1.tgz#d2f0f737d16b0615e72a6935ed04214572d56f97"
@@ -5765,12 +6479,17 @@ upper-case@^1.1.1:
   version "1.1.3"
   resolved "https://registry.npmjs.org/upper-case/-/upper-case-1.1.3.tgz#f6b4501c2ec4cdd26ba78be7222961de77621598"
 
-url-loader@^0.5.8:
-  version "0.5.9"
-  resolved "https://registry.npmjs.org/url-loader/-/url-loader-0.5.9.tgz#cc8fea82c7b906e7777019250869e569e995c295"
+urix@^0.1.0:
+  version "0.1.0"
+  resolved "http://registry.npm.taobao.org/urix/download/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
+
+url-loader@^0.6.2:
+  version "0.6.2"
+  resolved "http://registry.npm.taobao.org/url-loader/download/url-loader-0.6.2.tgz#a007a7109620e9d988d14bce677a1decb9a993f7"
   dependencies:
     loader-utils "^1.0.2"
-    mime "1.3.x"
+    mime "^1.4.1"
+    schema-utils "^0.3.0"
 
 url-parse-lax@^1.0.0:
   version "1.0.0"
@@ -5784,6 +6503,14 @@ url@^0.11.0:
   dependencies:
     punycode "1.3.2"
     querystring "0.2.0"
+
+use@^2.0.0:
+  version "2.0.2"
+  resolved "http://registry.npm.taobao.org/use/download/use-2.0.2.tgz#ae28a0d72f93bf22422a18a2e379993112dec8e8"
+  dependencies:
+    define-property "^0.2.5"
+    isobject "^3.0.0"
+    lazy-cache "^2.0.2"
 
 user-home@^2.0.0:
   version "2.0.0"
@@ -5846,13 +6573,17 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
+vue-class-component@^6.2.0:
+  version "6.2.0"
+  resolved "http://registry.npm.taobao.org/vue-class-component/download/vue-class-component-6.2.0.tgz#7adb1daa9a868c75f30f97f33f4f1b94aee62089"
+
 vue-hot-reload-api@^2.2.0:
   version "2.2.0"
   resolved "https://registry.npmjs.org/vue-hot-reload-api/-/vue-hot-reload-api-2.2.0.tgz#9a21b35ced3634434a43ee80efb7350ea8fb206d"
 
-vue-loader@^13.3.0:
-  version "13.4.0"
-  resolved "https://registry.npmjs.org/vue-loader/-/vue-loader-13.4.0.tgz#44aa7eef4fb1be89fbc37193ad33b8253417c4b9"
+vue-loader@^14.1.1:
+  version "14.1.1"
+  resolved "http://registry.npm.taobao.org/vue-loader/download/vue-loader-14.1.1.tgz#331f197fcea790d6b8662c29b850806e7eb29342"
   dependencies:
     consolidate "^0.14.0"
     hash-sum "^1.0.2"
@@ -5865,23 +6596,23 @@ vue-loader@^13.3.0:
     resolve "^1.4.0"
     source-map "^0.6.1"
     vue-hot-reload-api "^2.2.0"
-    vue-style-loader "^3.0.0"
+    vue-style-loader "^4.0.1"
     vue-template-es2015-compiler "^1.6.0"
 
 vue-router@^3.0.1:
   version "3.0.1"
   resolved "https://registry.npmjs.org/vue-router/-/vue-router-3.0.1.tgz#d9b05ad9c7420ba0f626d6500d693e60092cc1e9"
 
-vue-style-loader@^3.0.0, vue-style-loader@^3.0.1:
-  version "3.0.3"
-  resolved "https://registry.npmjs.org/vue-style-loader/-/vue-style-loader-3.0.3.tgz#623658f81506aef9d121cdc113a4f5c9cac32df7"
+vue-style-loader@^4.0.1, vue-style-loader@^4.0.2:
+  version "4.0.2"
+  resolved "http://registry.npm.taobao.org/vue-style-loader/download/vue-style-loader-4.0.2.tgz#e89aa4702a0c6b9630d8de70b1cbddb06b9ad254"
   dependencies:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
-vue-template-compiler@^2.5.2:
-  version "2.5.3"
-  resolved "https://registry.npmjs.org/vue-template-compiler/-/vue-template-compiler-2.5.3.tgz#ab631b0694e211a6aaf0d800102b37836aae36a4"
+vue-template-compiler@^2.5.13:
+  version "2.5.13"
+  resolved "http://registry.npm.taobao.org/vue-template-compiler/download/vue-template-compiler-2.5.13.tgz#12a2aa0ecd6158ac5e5f14d294b0993f399c3d38"
   dependencies:
     de-indent "^1.0.2"
     he "^1.1.0"
@@ -5890,9 +6621,9 @@ vue-template-es2015-compiler@^1.6.0:
   version "1.6.0"
   resolved "https://registry.npmjs.org/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.6.0.tgz#dc42697133302ce3017524356a6c61b7b69b4a18"
 
-vue@^2.5.2:
-  version "2.5.3"
-  resolved "https://registry.npmjs.org/vue/-/vue-2.5.3.tgz#e1a3b1f49b6e93e574ce040b95cbc873912fecc1"
+vue@^2.5.13:
+  version "2.5.13"
+  resolved "http://registry.npm.taobao.org/vue/download/vue-2.5.13.tgz#95bd31e20efcf7a7f39239c9aa6787ce8cf578e1"
 
 vuex@^3.0.1:
   version "3.0.1"

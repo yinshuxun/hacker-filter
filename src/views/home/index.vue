@@ -6,9 +6,11 @@
     <router-link to="spec02">
       <div :class="$style.spec">spec02</div>
     </router-link>
+    <router-link to="spec03">
+      <div :class="$style.spec">spec03</div>
+    </router-link>
   </div>
 </template>
-<style src="./index.scss" lang="scss" module/>
 <script>
   export default {
     data() {
@@ -19,3 +21,5 @@
     components: {}
   }
 </script>
+<style src="./index.scss" lang="scss" module/>
+

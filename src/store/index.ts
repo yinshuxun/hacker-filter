@@ -3,7 +3,13 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
-const state = {
+export interface StateT {
+  count: number
+  steps: Array<number | string>
+  loading: string
+  userName: string
+}
+const state: StateT = {
   // TODO: 初始状态
   count: 0,
   steps: [],
@@ -12,16 +18,16 @@ const state = {
 }
 
 const getters = {
-  count (state) {
+  count(state: StateT) {
     return state.count
   },
-  steps (state) {
+  steps(state: StateT) {
     return state.steps
   },
-  loading (state) {
+  loading(state: StateT) {
     return state.loading
   },
-  userName (state) {
+  userName(state: StateT) {
     return state.userName
   }
 }
@@ -29,32 +35,32 @@ const getters = {
 export default new Vuex.Store({
   state,
   mutations: {
-    increment (state, num) {
+    increment(state: StateT, num: number = 0) {
       state.count += num
       state.steps.unshift('加上' + num)
     },
-    reduce (state, num) {
+    reduce(state, num) {
       state.count -= num
       state.steps.unshift('减去' + num)
     },
-    loading (state, lstate) {
+    loading(state, lstate) {
       state.loading = lstate
     },
-    baseData (state, newState) {
+    baseData(state, newState) {
       Object.assign(state, newState)
     }
   },
   actions: {
-    setBase ({commit}, newState) {
+    setBase({ commit }, newState) {
       commit('baseData', newState)
     },
-    increment ({commit}, num) {
+    increment({ commit }, num) {
       commit('increment', num)
     },
-    reduce ({commit}, num) {
+    reduce({ commit }, num) {
       commit('reduce', num)
     },
-    loading ({commit}, lstate) {
+    loading({ commit }, lstate) {
       commit('loading', lstate)
     }
   },
