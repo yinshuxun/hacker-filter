@@ -16,7 +16,7 @@
     "@types/axios": "^0.14.0",
     "@types/mockjs": "^1.0.0",
     "@types/webpack": "^4.0.0",
-    "axios": "^0.17.0",
+    "axios": "^0.19.1",
     "ts-loader": "^3.5.0",
     "tslint-config-standard": "^8.0.1",
     "typescript": "^2.7.2",
