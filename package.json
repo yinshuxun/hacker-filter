@@ -15,7 +15,7 @@
   "dependencies": {
     "@types/axios": "^0.14.0",
     "@types/mockjs": "^1.0.0",
-    "@types/webpack": "^4.0.0",
+    "@types/webpack": "^4.41.10",
     "axios": "^0.17.0",
     "ts-loader": "^3.5.0",
     "tslint-config-standard": "^8.0.1",
